@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Etch a Sketch</title>
+    <link rel="shortcut icon" href="./resources/icons8-draw-48.png"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="main-title">Etch-a-sketch!</h1>
+    <div class="content">
+        <div class="pallet-settings">
+            <input id="color-picker" type="color">
+            <button id="btn-solid">Solid Color</button>
+            <button id="btn-rainbow">Rainbow Mode</button>
+            <button id="btn-eraser">Eraser</button>
+            <button id="btn-clear">Clear</button>
+            <div id="slider-value">16x16</div>
+            <input type="range" min="4" max="25" value="16" class="slider">
+       </div>
+        <div class="grid"></div>
+    </div>
+  </body>
+</html>
